@@ -158,7 +158,7 @@ function highlightEntity(event, player, search_area, entityType)
 end
 
 
-function findAndHighlightOrphanPipes(event, player, search_area)
+function findAndHighlightOrphanPipes(event, player, search_area, delete)
 
     local count = 0
 	local scannedTable = {}
@@ -220,7 +220,7 @@ function findAndHighlightOrphans(event, delete, findCheat)
     if findCheat then
 		highlightCheats(event, player, search_area)
 	else
-		findAndHighlightOrphanPipes(event, player, search_area)
+		findAndHighlightOrphanPipes(event, player, search_area, delete)
 	end
 	
   else
