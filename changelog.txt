@@ -1,0 +1,7 @@
+
+---------------------------------------------------------------------------------------------------
+Version: 1.0.0
+Date: 2021-02-27
+  Changes:
+    - highlight (SHIFT-O) and delete (SHIFT-P) unconnected pipes
+	- highlight cheat items such as infinity pipe, containers & power interfaces with SHIFT-I
